@@ -71,7 +71,7 @@ const helmet = Helmet.renderStatic();
 
 ` import {Helmet} from "react-helmet"; `
 
-```html
+```js
 <Helmet>
       <meta charset="utf-8">
       <meta name="description"
@@ -106,7 +106,7 @@ This helmet instance contains the following properties:
 - style
 - title
 
-```javascript
+```js
 
 import React from "react"
 import {Helmet} from "react-helmet"
