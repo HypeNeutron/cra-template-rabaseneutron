@@ -38,3 +38,91 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## React Helmet
+
+Reusable React component will manage all of your changes to the document head dynamically
+
+- Supports all valid head tags: title, base, meta, link, script, noscript, and style.
+
+### Install
+
+`yarn add react-helmet`
+
+### Server-Side-Rendering Usage
+
+> documentation: [react-helmet-async](https://classic.yarnpkg.com/en/package/react-helmet-async)
+
+`yarn add react-helmet-async`
+
+### Server Usage
+
+To use on the server, call `Helmet.renderStatic()` after `ReactDOMServer.renderToString`
+or `ReactDOMServer.renderToStaticMarkup` to get the head data for use in your prerender.
+
+```js
+
+ReactDOMServer.renderToString(<Handler />);
+const helmet = Helmet.renderStatic();
+
+```
+
+### Client Usage
+
+` import {Helmet} from "react-helmet"; `
+
+```html
+<Helmet>
+      <meta charset="utf-8">
+      <meta name="description"
+        content="This is a meta description sample. We can add up to 160 characters.">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <link rel="canonical" href="http://example.com/main-page" />
+      <title>Page Title :Simple for template Easy Adaptive</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <title>{title modified}</title>
+      <style type="text/css">
+      {
+          `
+          .app{
+              background-color:#f5f5f5;
+          }
+          `
+      }
+      </style>
+</Helmet>
+
+```
+
+This helmet instance contains the following properties:
+
+- base
+- bodyAttributes
+- htmlAttributes
+- link
+- meta
+- noscript
+- script
+- style
+- title
+
+```javascript
+
+import React from "react"
+import {Helmet} from "react-helmet"
+
+export const SEO = ({title, description, meta}) => {
+ return(
+  <Helmet title = {title}
+          htmlAttributes={{ lang: "en" }}
+          meta={[
+        {
+          name: `description`,
+          content: description,
+        } 
+      ]}
+   />
+  )
+}
+
+```
