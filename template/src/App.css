@@ -1,4 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 :root {
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 62.5%;
 }
 
@@ -7,8 +16,19 @@
     min-height: 100vh;
 }
 
+.App-header {
+    background-color: #282c34;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: #ffffff;
+}
+
 .App-logo {
-    height: 40vmin;
+    height: 25vmin;
     pointer-events: none;
 }
 
@@ -28,19 +48,13 @@
     }
 }
 
-.App-header {
-    background-color: #282c34;
-    min-height: 35vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
+h1 {
+    font-weight: 700;
 }
 
-p {
-    font-size: 3rem;
+h2 {
+    font-weight: 300;
+    font-size: 4rem;
     margin-top: 2em;
     color: #282c34;
 }

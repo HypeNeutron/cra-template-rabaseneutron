@@ -7,9 +7,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h2>Welcome to Custom React</h2>
+        <h1>Welcome to Neutron Base React</h1>
       </header>
-      <p>My app customize</p>
+      <h2>React Base App</h2>
     </div>
   );
 }
