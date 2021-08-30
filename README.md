@@ -39,6 +39,12 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+---
+
+## React Fast Refresh Disabled to false in .env for Debugging purpose
+
+> set `false` to refresh page every time when code change benefit for `console.log()` debug way  
+
 ## React Helmet
 
 Reusable React component will manage all of your changes to the document head dynamically
