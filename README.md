@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with rabase-neutron Template
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -41,9 +41,19 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ---
 
+## Usage React Template
+
+```terminal
+npx create-react-app new-app --template [template-name] || rabase-neutron (this template)
+```
+
+---
+
 ## React Fast Refresh Disabled to false in .env for Debugging purpose
 
 > set `false` to refresh page every time when code change benefit for `console.log()` debug way  
+
+---
 
 ## React Helmet
 
