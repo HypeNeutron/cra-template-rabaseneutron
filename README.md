@@ -49,6 +49,14 @@ npx create-react-app new-app --template rabase-neutron
 
 ---
 
+## Unexpected Error facing
+
+> 'prettier/prettier': context.getPhysicalFilename is not a function
+
+Fixing by `yarn upgrade -R eslint`
+
+---
+
 ## React Fast Refresh Disabled to false in .env for Debugging purpose
 
 > set `false` to refresh page every time when code change benefit for `console.log()` debug way
