@@ -6,7 +6,7 @@
     "create-react-app",
     "template"
   ],
-  "description": "React Neutron ฺBase Template.",
+  "description": "React Neutron ฺEslint Config Base Template.",
   "repository": {},
   "license": "MIT",
   "engines": {

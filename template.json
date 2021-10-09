@@ -2,18 +2,18 @@
   "package": {
     "dependencies": {
       "@testing-library/jest-dom": "^5.14.1",
-      "@testing-library/react": "^12.0.0",
+      "@testing-library/react": "^12.1.2",
       "@testing-library/user-event": "^13.2.1",
-      "web-vitals": "^2.1.0",
-      "axios": "^0.21.1",
+      "web-vitals": "^2.1.1",
+      "axios": "^0.22.0",
       "eslint": "^7.32.0",
-      "eslint-config-airbnb-base": "^14.2.1",
+      "eslint-config-airbnb": "^18.2.1",
       "eslint-config-prettier": "^8.3.0",
       "eslint-plugin-import": "^2.24.2",
-      "eslint-plugin-prettier": "^3.4.1",
-      "eslint-plugin-react": "^7.24.0",
+      "eslint-plugin-prettier": "^4.0.0",
+      "eslint-plugin-react": "^7.26.1",
       "eslint-plugin-react-hooks": "^4.2.0",
-      "prettier": "^2.3.2"
+      "prettier": "^2.4.1"
     },
     "eslintConfig": {
       "extends": ["react-app", "react-app/jest"]

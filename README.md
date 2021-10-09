@@ -44,7 +44,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 ## Usage React Template
 
 ```terminal
-npx create-react-app new-app --template [template-name] || rabase-neutron (this template)
+npx create-react-app new-app --template rabase-neutron
 ```
 
 ---
@@ -57,12 +57,12 @@ npx create-react-app new-app --template [template-name] || rabase-neutron (this 
 
 ## Package Integrated
 
-- axios
+- axios@^0.22.0
 - eslint@^7.32.0
-  - eslint-config-airbnb-base
+  - eslint-config-airbnb
   - eslint-config-prettier
   - eslint-plugin-import
   - eslint-plugin-prettier
   - eslint-plugin-react
   - eslint-plugin-react-hooks
-- prettier@^2.3.2
+- prettier@^2.4.1
