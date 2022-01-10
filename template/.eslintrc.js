@@ -1,16 +1,17 @@
 module.exports = {
   env: {
     browser: true,
+    commonjs: true,
     node: true,
     jest: true,
     es6: true,
-    es2021: true,
   },
   extends: [
     'eslint:recommended',
     'plugin:import/errors',
     'plugin:import/warnings',
     'plugin:react/recommended',
+    'plugin:jsx-a11y/recommended',
     'plugin:react-hooks/recommended',
     'airbnb',
     'plugin:prettier/recommended',
@@ -23,7 +24,7 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module',
   },
-  plugins: ['react', 'react-hooks', 'prettier'],
+  plugins: ['react', 'jsx-a11y', 'react-hooks', 'prettier'],
   rules: {
     'prettier/prettier': [
       'error',
