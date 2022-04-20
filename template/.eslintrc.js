@@ -26,8 +26,9 @@ module.exports = {
   },
   plugins: ['react', 'jsx-a11y', 'react-hooks', 'prettier'],
   rules: {
+    // prettier rule
     'prettier/prettier': [
-      'error',
+      'off',
       {
         endOfLine: 'auto',
       },
@@ -35,8 +36,9 @@ module.exports = {
     'no-param-reassign': 'warn',
     'no-console': 'warn',
     'no-unused-vars': 'warn',
-    'react/prop-types': 'off',
+    // react rule
     'react/jsx-props-no-spreading': 'warn',
+    'react/prop-types': 'off',
     'react/jsx-filename-extension': 'warn',
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
