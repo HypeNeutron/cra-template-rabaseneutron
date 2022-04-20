@@ -1,4 +1,4 @@
-# Getting Started with rabase-neutron Template (Eslint and Prettier base integrated)
+# Getting Started with rabase-neutron Template ( Eslint and Prettier config base Integrated )
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -44,7 +44,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 ## Usage React Template
 
 ```terminal
-npx create-react-app@latest new-app --template rabase-neutron
+npx create-react-app@latest your-name-app --template rabase-neutron
 ```
 
 ---
@@ -60,6 +60,16 @@ Fixing by `npm upgrade -R eslint`
 ## React Fast Refresh Disabled to false in .env for Debugging purpose
 
 > set `false` to refresh page every time when code change benefit for `console.log()` debug way
+
+---
+
+## Package Default Alternative
+
+- web-vitals
+
+The web-vitals library is a tiny (~1K), modular library for measuring all the Web Vitals metrics on real users, in a way that accurately matches how they're measured by Chrome and reported to other Google tools (e.g. Chrome User Experience Report, Page Speed Insights, Search Console's Speed Report).
+
+The library supports all of the Core Web Vitals as well as all of the other Web Vitals
 
 ---
 
